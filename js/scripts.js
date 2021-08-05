@@ -11,7 +11,7 @@ function newItem() {
     }
 
   //crossing out item in list!
-  listItem.on('dbclick',function crossOut() {
+  listItem.on('dblclick',function crossOut() {
     listItem.toggleClass('strike');
   });
 
@@ -22,9 +22,10 @@ function newItem() {
 
   //adding class delete - from css!
   crossOutButton.on('click', deleteListItem);
-  function.deleteListItem() {
+  function deleteListItem() {
     listItem.addClass('delete')
   }
 
   //Reodering item list!
   $('#list').sortable();
+}
