@@ -14,3 +14,10 @@ function newItem() {
   listItem.on('dbclick',function crossOut() {
     listItem.toggleClass('strike');
   });
+
+  //Adding the delete button "X"!
+  let crossOutButton = $('<button class="crossOutButton"></button>');
+  crossOutButton.append("X");
+  listItem.append(crossOutButton);
+
+  
