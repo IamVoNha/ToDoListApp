@@ -20,4 +20,8 @@ function newItem() {
   crossOutButton.append("X");
   listItem.append(crossOutButton);
 
-  
+  //adding class delete - from css!
+  crossOutButton.on('click', deleteListItem);
+  function.deleteListItem() {
+    listItem.addClass('delete')
+  }
