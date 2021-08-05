@@ -1,4 +1,3 @@
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
 body {
@@ -42,8 +41,9 @@ ol li {padding: 5px;color:#000;}
 
 ol li:nth-child(even){background: #dfdfdf;}
 
-.strike{text-decoration: line-through;}
-
+.strike {
+  text-decoration: line-through;
+}
 li:hover{
   cursor: pointer;
  }
@@ -52,7 +52,7 @@ li:hover{
 	display: none;
 }
 
-li > crossOutButton {
+li > .crossOutButton {
 	background: none;
 	border: none;
 	float: right;
