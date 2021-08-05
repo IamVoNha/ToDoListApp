@@ -25,3 +25,6 @@ function newItem() {
   function.deleteListItem() {
     listItem.addClass('delete')
   }
+
+  //Reodering item list!
+  $('#list').sortable();
